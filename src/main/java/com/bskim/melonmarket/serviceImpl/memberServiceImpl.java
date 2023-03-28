@@ -1,8 +1,8 @@
-package com.bskim.serviceImpl;
+package com.bskim.melonmarket.serviceImpl;
 
 import java.util.Optional;
 
-import com.bskim.resource.entity.Member;
+import com.bskim.melonmarket.resource.entity.Member;
 
 public interface memberServiceImpl {
 

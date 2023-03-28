@@ -1,4 +1,4 @@
-package com.bskim.resource.entity;
+package com.bskim.melonmarket.resource.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
