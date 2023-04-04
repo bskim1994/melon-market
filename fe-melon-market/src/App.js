@@ -1,14 +1,16 @@
-import Dashboard from './view/dashboard';
-import Header from './view/header';
-import Sidebar from './view/sidebar';
+import Main from './view/main';
+import Login from './view/login';
+import {Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      
-      <Header/>
-      <Sidebar/>
-      <Dashboard/>
+      <Routes>
+        <Route path="/" element={<Main></Main>}> 
+        </Route>
+        <Route path="/login" element={<Login></Login>}>
+        </Route>
+      </Routes>
     </div>
   );
 }
